@@ -1,18 +1,22 @@
-## Getting Started
+# Lumi
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Lumi, masaustunde yasayan ve kullanicinin davranislarina tepki veren bir desktop companion oyun projesidir.
 
-## Folder Structure
+## Proje Dokumanlari
 
-The workspace contains two folders by default, where:
+- [Project Brief](docs/PROJECT_BRIEF.md)
+- [Product Requirements](docs/PRODUCT_REQUIREMENTS.md)
+- [MVP Roadmap](docs/MVP_ROADMAP.md)
+- [Technical Outline](docs/TECHNICAL_OUTLINE.md)
+- [Task Backlog](docs/TASK_BACKLOG.md)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Klasor Yapisi
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `src`: Java kaynak kodlari
+- `lib`: harici kutuphaneler
+- `bin`: derlenmis ciktilar, Git'e dahil edilmez
+- `docs`: urun, teknik plan ve gorev dokumanlari
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Ilk Hedef
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Ilk teknik hedef, Windows masaustunde seffaf ve always-on-top calisan bir karakter prototipi uretmektir.
